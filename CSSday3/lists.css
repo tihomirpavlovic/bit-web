@@ -1,0 +1,33 @@
+#marko{
+    list-style-type: circle;
+}
+
+#milos{
+    list-style-type: square;
+}
+
+#jovana{
+    list-style-type: upper-alpha;
+}
+
+#tamara{
+    list-style-type: upper-roman;
+}
+#list2{
+    display: inline-block;
+    background-color: green;
+}
+#list1{
+    display: inline-block;
+    background-color: red;
+}
+#wide1{
+    width: 200px;
+    list-style-image: url(http://www.kurir.rs/resources/images/android/star_full.svg?v2);
+}
+#wide2{
+    width: 200px;
+    list-style-image: url(http://www.kurir.rs/resources/images/android/star_full.svg?v2);
+    list-style-position: inside;
+    
+}
