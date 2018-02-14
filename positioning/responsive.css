@@ -1,8 +1,11 @@
 
-
-div {
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#main {
     margin: 0 auto;
-    width: 960px;
+    width: 80%;
 }
 
 img {
@@ -17,21 +20,29 @@ header {
 
 section {
     float: left;
-    width: 400px;
+    width: 45%;
     padding: 20px;
 }
 
 main {
     overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#name{
+    padding: 25px;
 }
 
 article{
-    width: 400px;
-    float: left;
+    width: 45%;
+    float: right;
     border-left: 1px solid black;
     padding: 20px;
 
 }
+
+
 
 
 
