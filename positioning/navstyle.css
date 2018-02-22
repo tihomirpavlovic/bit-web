@@ -40,8 +40,6 @@ a {
     list-style-type: none;
     background-color: orange;
     color: rgb(2, 2, 102);
-    width: 30%;
-    float: right;
     padding: 10px 5px;
 }
 
@@ -50,11 +48,7 @@ a {
     padding: 5px 0;
 }
 
-article {
-    width: 32%;
-    float: left;
-    margin: 15px 5px;
-}
+
 /* ------------------------------ footer */ 
 footer{
     background-color: rgb(1, 1, 73);
@@ -69,10 +63,4 @@ footer div{
     
 }
 
-main{
-    overflow: hidden;
-}
 
-#third{
-    clear: left;
-}
