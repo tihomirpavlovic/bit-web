@@ -1,56 +1,118 @@
-.container-fluid{
+.container-fluid {
     padding: 0;
 }
 
-nav{
+nav {
     background-color: #2c3e50;
     color: #FFF;
     a {
         color: #FFF;
     }
-    
-   
-
     button span {
         filter: invert(100%);
-        // color:#000;
-        // background-color: #000;
-    }  
+    }
+    
 }
 
-header{
+header {
     background-color: #18bc9c;
     text-align: center;
     padding: 10% 0 10% 0;
     color: #FFF;
-    h3, h4{
+    h3, h4 {
         margin: 5px 0 5px 0;
     }
-    img{
+    img {
         padding-bottom: 3%;
+        margin-top: 10%;
     }
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
+
 .navbar-light .navbar-brand {
     color: white;
 }
 
-#portfolio{
-    margin:0 auto;
+#portfolio {
+    margin: 0 auto;
     text-align: center;
-    img{
+    img {
         margin: 0 0 5% 0;
         width: 100%;
         padding: 0 10% 0 10%;
-        
     }
-    h1{
+    h1 {
         margin: 15% 0 10% 0;
     }
 }
+//about-padding pravi problem
+#about {
+    background-color: #18bc9c;
+    color: #FFF;
+    h1 {
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        margin-top: 10%;
+    }
+    p {
+        padding: 0;
+        margin: 0 5% 0 5%;
+    }
+    div.col-12 {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .btn {
+        background-color: #18bc9c; 
+        color: #FFF;
+        border: 1px solid #FFF;
+        margin-bottom: 10% 0;
+        .fa {
+            margin-right: 5px; // Vrati se da namestis pading info elementu
+        } // Medium devices (tablets, 768px and up)
+        //    @media screen and (min-width: 768px){
+        //    }
+    }
+}
 
+.form-control {
+    border: none;
+}
 
+#contact {
+    h1 {
+        text-align: center;
+        margin: 10% 0 15% 0;
+    }
+    .contactFormSubmit {
+        color: #FFF;
+        border: 1px solid #FFF;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        background-color: #18bc9c;
+    }
+    #contact-form {
+        margin: 0 5% 0 5%;
+    }
+    input {
+        border-bottom: 1px solid gray;
+    }
+    .form-control {
+        border-bottom: 1px solid gray;
+    }
+}
 
+#location {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 5% 5% 5% 5%;
+    span {
+        color: grey;
+        font-size: 50%;
+    }
+}

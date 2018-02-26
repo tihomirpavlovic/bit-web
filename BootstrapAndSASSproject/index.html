@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
@@ -12,36 +14,35 @@
 </head>
 
 <body>
-
+    
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+    
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ml-auto">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mr-auto">
                         <a class="nav-link" href="#">Home
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item ml-auto">
+                    <li class="nav-item mr-auto">
                         <a class="nav-link" href="#">Link</a>
                     </li>
-                    <li class="nav-item ml-auto">
+                    <li class="nav-item mr-auto">
                         <a class="nav-link" href="#">Disabled</a>
                     </li>
-                    <li class="nav-item ml-auto">
+                    <li class="nav-item mr-auto">
                         <a class="nav-link" href="#">Disabled</a>
                     </li>
                 </ul>
-
+    
             </div>
         </nav>
-
         <header>
             <img src="img/profile.png" alt="">
             <h3>BOOTSTRAP AND SASS</h3>
@@ -86,9 +87,85 @@
 
     <div class="container-fluid">
 
-        <section>
+        <section id="about">
 
-            <h1>PORTFOLIO</h1>
+            <h1>ABOUT</h1>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ipsum nemo amet, obcaecati officia esse
+                        accusantium reiciendis ipsam maiores veniam vitae saepe dicta debitis explicabo assumenda repellat,
+                        officiis reprehenderit doloremque dolorum laudantium. Quas enim ut, harum inventore maiores amet
+                        eaque maxime eligendi? Nobis velit magni perspiciatis enim? Fugit, distinctio nulla!</p>
+                </div>
+                <br>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laborum nam ab eos ad consequuntur, illo
+                        nostrum. Et necessitatibus nesciunt minima vel delectus ab expedita laudantium at suscipit ullam
+                        beatae omnis similique, atque natus doloremque sit aliquam. Ducimus cum, repudiandae assumenda id,
+                        repellat magnam, temporibus officia quas facilis omnis minima.</p>
+                </div>
+
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-light fa fa-info">Find Out More</button>
+            </div>
+        </section>
+
+        <section id="contact">
+
+            <h1>CONTACT US</h1>
+
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name..">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Phone number</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your phone number..">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter some text here..."></textarea>
+                </div>
+
+                <button type="submit" class="btn contactFormSubmit">Send</button>
+            </form>
+        </section>
+
+        <section id="location">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <h3>LOCATION</h3>
+                    <P>BIT TECHNOLOGY
+                        <br> Nemanjina 4/I, Beograd
+                    </P>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <h3>AROUND THE WEB</h3>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <h3>MORE DETAILS</h3>
+                    <p>We believe that the future of serbia firmly depends on our ability to scale the number of individuals
+                        involved in the IT sextor. That is why we founded BIT.</p>
+                </div>
+
+
+            </div>
+
+            <div class="row" id="second">
+                <div class="col-12">
+                    <p>Copyright BitStudent 2017
+                        <br>
+                        <span>Bit thanks to Start Bootstrap!</span>
+                    </p>
+                </div>
+            </div>
 
 
         </section>
