@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    background-color: #0212fe;
+    position: relative;
+}
+
+
+.mario{
+    height: 130px;
+    position: fixed;
+    top:755px;
+    right:950px;
+
+}
+
+.display{
+    display: none;
+}
+
+.ide{
+    height: 130px;
+    position: fixed;
+    top:755px;
+    right:950px;
+}
