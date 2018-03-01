@@ -14,3 +14,11 @@
 .active{
     background-color: purple;
 }
+
+img {
+    width: 33%;
+}
+
+.selected{
+    border: 1px solid red;
+}

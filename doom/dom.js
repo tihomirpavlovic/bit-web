@@ -1,4 +1,3 @@
-
 // (function () {
 
 //     var element = document.getElementById("red");
@@ -27,7 +26,7 @@
 //     var greenElement = lists[lists.length - 1];
 
 //     for (var i = 0; i < greenElement.children.length; i++) {
-        
+
 //         greenElement.children[i].className = "green";
 
 //     }
@@ -42,10 +41,19 @@
 
 
 function nova(){
-    var elements=document.getElementsByClassName("active");
-    // elements[0].className = "";
+    var element = document.getElementsByClassName("active")[0];
+    element.className = "";
     // console.log(element)
-    var element1 = elements[0].parentNode.parentNode.previousElementSibling.firstElementChild.firstElementChild.className = "active";
+    var element1 = element.parentNode.parentNode.previousElementSibling.firstElementChild.firstElementChild.className = "active";
     // console.log(element1)
 }
 nova();
+
+// function pictures() {
+//     var element = document.getElementsByClassName("selected")[0];
+//     element.className = "";
+//     // console.log(element)
+//     var element1 = element.parentNode.nextElementSibling.firstElementChild.nextElementSibling.className = "selected";
+//     // console.log(element1)
+// }
+// pictures();
