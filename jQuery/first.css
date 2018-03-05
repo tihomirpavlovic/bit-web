@@ -1,0 +1,15 @@
+.border{
+    border-bottom: 1px solid black;
+}
+
+.background{
+    background-color: orange;
+}
+
+.fontcolor{
+    color: red;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
