@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="event3.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <img id="igr" src="player.png" alt="">
+
+    <input type="button" value="stop" id="stop">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var counter = 0;
+
+        function move(event) {
+
+            var x = event.clientX - 50;
+            var y = event.clientY - 50;
+            $("#igr").css("left", x + "px");
+            $("#igr").css("top", y + "px");
+            counter++
+
+            if (counter > 10) {
+                $('body').off();
+            }
+
+        }
+
+        $("body").on("click", move);
+        $('#stop').on("click", function() {
+            $('body').off();
+            $("#igr").css("left", "48%");
+            $("#igr").css("top", "52%");
+
+        });
+    </script>
+
+
+</body>
+
+</html>
